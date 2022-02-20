@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>Alex Hinds</title>
+  </head>
+  <body>
+    <div class="loader"></div>
+
+    <!-- Header Section -->
+
+    <div class="header" id="header">
+      <div class="logo">
+        <a href="#header"><img src="/images/logo.png" alt="Logo" /></a>
+      </div>
+      <nav>
+        <ul id="mobile-nav">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="header-cta">
+            <a href="./cv/RaymondAlex_Hinds_CV.PDF">Download CV</a>
+          </div>
+        </ul>
+      </nav>
+
+      <button id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <!-- <div class="header-cta">
+        <a href="#">Download CV</a>
+      </div> -->
+    </div>
+
+    <!-- Social Icons Sections -->
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/alex-hinds-56253718a/" target="blank"
+        ><img src="./images/linkedin.svg" alt="Linkedin"
+      /></a>
+      <a href="https://github.com/Dev-Alex23/" target="blank"
+        ><img src="./images/github.svg" alt="Github"
+      /></a>
+    </div>
+
+    <!-- Hero Section  -->
+
+    <section class="hero" id="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <!-- <span id="text1">&lt;h1&gt;</span>
+          <span id="text2">&lt;/h1&gt;</span> -->
+          <span class="name">Hi, 👋 my name is</span>
+          <div class="head-name">
+            <h1>Alex Hinds.</h1>
+          </div>
+          <div class="head-text-main">
+            <h1 id="h-2"></h1>
+            <!-- A Web Developer. -->
+          </div>
+        </div>
+        <!-- <span class="line-1"></span> -->
+
+        <div class="hero-text-container">
+          <span id="text3">&lt;p&gt;</span>
+          <span id="text4">&lt;/p&gt;</span>
+          <p>
+            Newly graduated and ambitious <span>Web Developer</span> bringing enthusiasm
+            and detailed understanding of various programming languages to webpage
+            planning, development and maintenance.
+          </p>
+        </div>
+
+        <div class="cta" id="hero-cta">
+          <a href="#contact">Get in Touch</a>
+          <div class="square">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-animation">
+        <div class="img">
+          <img src="./images/gradient-2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="left-about-container">
+          <div class="img-container">
+            <img src="./images/web-dev.svg" alt="" />
+          </div>
+        </div>
+        <div class="right-about-container">
+          <div class="head-title">
+            <h1>About Me</h1>
+            <div class="sub-title">
+              <h3>Who am I?</h3>
+            </div>
+          </div>
+
+          <div class="about-info">
+            <p>
+              Hi, I am a recent graduate of <span>London South Bank University. </span>
+
+              I am an analytical and methodical person who is looking to further my
+              abilities. I enjoy working hands on with various projects and tasks from
+              conception to delivery. I am efficient and self-motivated and looking for a
+              new challenge to work hard and be thorough with everything I do. I am an
+              effective communicator, who is collaborative & proactive.
+            </p>
+            <p>
+              I have aspirations of becoming a <span>Full Stack Developer</span> as I am
+              currently learning both <span>React.js</span> & <span>Express.js</span>.
+            </p>
+            <div class="cta">
+              <a href="./cv/RaymondAlex_Hinds_CV.PDF" target="blank">Download CV</a>
+              <div class="square">
+                <span class="line-1"></span><br />
+                <span class="line-2"></span><br />
+                <span class="line-3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <section class="projects" id="projects">
+      <div class="title">
+        <h1>Projects</h1>
+      </div>
+      <div class="project-container first">
+        <div class="image-conatiner">
+          <!-- <img src="./images/a2u.png" alt="" /> -->
+        </div>
+        <div class="project-desc">
+          <div class="feat">
+            <h5>Featured Project</h5>
+            <h3 id="open">AgreementDirect2u</h3>
+          </div>
+          <div class="desc-container">
+            <div class="desc">
+              <p>
+                AgreementDirect2u is a web portal where landlords and tenants can connect
+                and use for getting together for joining into lease agreements. It is a
+                one stop for solving issues relating to residential lease agreements.
+              </p>
+            </div>
+            <div class="tech-stack">
+              <p>php</p>
+              <p>html</p>
+              <p>css3</p>
+              <p>Sass</p>
+              <p>MySQL</p>
+              <p>phpMyAdmin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-container-right">
+        <div class="image-conatiner">
+          <a href="#">
+            <!-- <img src="./images/photoArt.png" alt="" /> -->
+          </a>
+        </div>
+        <div class="project-desc">
+          <div class="feat">
+            <h5>Featured Project</h5>
+            <h3 id="open-photo">Photography Art</h3>
+          </div>
+          <div class="desc-container">
+            <div class="desc">
+              <p>
+                This website demonstrates the knowledge of developing applications, with a
+                focus on backend development with the use of PHP and SQL. The web
+                application was developed for a Photography company to manage their
+                business operations
+              </p>
+            </div>
+            <div class="tech-stack">
+              <p>php</p>
+              <p>html</p>
+              <p>css3</p>
+              <p>Sass</p>
+              <p>MySQL</p>
+              <p>phpMyAdmin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-container second">
+        <div class="image-conatiner t">
+          <a href="#">
+            <!-- <img src="./images/weatherApp.png" alt="Weather App Screen Shot" /> -->
+          </a>
+        </div>
+        <div class="project-desc trd2">
+          <div class="feat">
+            <h5>Featured Project</h5>
+            <a href="https://laughing-lalande-b5cd11.netlify.app" target="blank">
+              <h3>The Weather</h3>
+            </a>
+          </div>
+          <div class="desc-container">
+            <div class="desc">
+              <p>
+                Weather application using the Open Weather API to get different details
+                about searched locations.
+              </p>
+            </div>
+            <div class="tech-stack">
+              <p>html</p>
+              <p>css3</p>
+              <p>sass</p>
+              <p>javascript</p>
+              <p>api</p>
+              <p>Async</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <a href="#">More</a>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal-conatiner" id="modal-conatiner">
+      <div class="modal">
+        <h1>AgreementDirect2u</h1>
+        <div style="padding: 56.25% 0 0 0; position: relative">
+          <iframe
+            src="https://player.vimeo.com/video/556153581?h=bec9c4cf6a&title=0&byline=0"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <p>
+          The main goal and objective of the website will be for tenants and landlords to
+          enter in a mutually agreed terms and conditions agreement and to solve issues
+          and problems on existing lease agreements. The main aim of the project is to go
+          through the process of signing a tenancy agreement without involving a legal
+          body.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum expedita, dolore
+          unde quae provident sit, fugit at molestiae eaque laudantium similique dolores
+          obcaecati animi laborum praesentium esse harum. Repellendus, hic!
+        </p>
+        <div class="modal-bottom">
+          <a href="https://github.com/Dev-Alex23/AD2U" target="blank">Github</a>
+          <button id="close">&#10005;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd Modal -->
+    <div class="modal-conatiner" id="modal-conatiner-photo">
+      <div class="modal">
+        <h1>Photography Art</h1>
+        <div style="padding: 56.25% 0 0 0; position: relative">
+          <iframe
+            title="A2U Showcase"
+            src="https://player.vimeo.com/video/678727791?h=43b61964fb"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <p>
+          The web application was developed for a Photography company to manage their
+          business operations. Visitors have the ability to see necessary information
+          about what the company offers, such as timetables for classes and upcoming
+          exhibits with the option to join and, if they register with the company, they
+          will be able to book the different events.
+        </p>
+        <p>
+          The manager also has the ability create, update and view reports about events
+          such as the total revenue generated by an exhibit, lecturer or see comments on
+          classes held. If an artist application is accepted, they can now upload evidence
+          of their artwork and have registered users comment on them.
+        </p>
+        <div class="modal-bottom">
+          <a href="https://github.com/Dev-Alex23/PhotographyArt" target="blank">Github</a>
+          <button id="close-photo">&#10005;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+      <div class="contact-title">
+        <h1>Let's Connect</h1>
+        <h3>Get in Touch</h3>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form">
+          <form
+            action="https://formsubmit.co/9b3612fe076c071e73fddd0362010740"
+            name="contact-me"
+            method="post"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://alexhinds.co.uk/pages/thankyou.html"
+            />
+            <input type="text" name="name" id="name" placeholder="Enter Name" required />
+            <input
+              type="text"
+              name="company"
+              id="company"
+              placeholder="Enter Company Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="8"
+              placeholder="Enter Message"
+              required
+            ></textarea>
+            <div class="submit">
+              <input type="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="info">
+        <p>Design & Coded by Alex Hinds</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>

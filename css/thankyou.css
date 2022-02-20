@@ -1,0 +1,47 @@
+.message-conatiner {
+  max-width: 550px;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  background-color: #232831;
+}
+
+.message-conatiner .message .image {
+  margin: 0 auto;
+}
+
+.message-conatiner .message .image img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.message-conatiner .message h1 {
+  color: #69aec9;
+  text-align: center;
+}
+
+.message-conatiner .message p {
+  color: #626262;
+  max-width: 400px;
+  margin: 1.5rem auto;
+}
+
+.message-conatiner .cta {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.message-conatiner .cta a {
+  text-decoration: none;
+  color: #69aec9;
+  border: 2px solid #69aec9;
+  padding: 0.5rem 0.8rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.message-conatiner .cta a:hover {
+  background-color: rgba(104, 177, 202, 0.2);
+}
+/*# sourceMappingURL=thankyou.css.map */

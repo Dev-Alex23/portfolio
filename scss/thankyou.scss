@@ -1,0 +1,46 @@
+@import "./variables/variables.scss";
+
+.message-conatiner {
+  max-width: 550px;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  background-color: $snd-bg-color;
+
+  .message {
+    .image {
+      margin: 0 auto;
+      img {
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+
+    h1 {
+      color: $accent-color;
+      text-align: center;
+    }
+    p {
+      color: $text-color;
+      max-width: 400px;
+      margin: 1.5rem auto;
+    }
+  }
+
+  .cta {
+    margin: 2.5rem 0;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: $accent-color;
+      border: 2px solid $accent-color;
+      padding: 0.5rem 0.8rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: rgba(104, 177, 202, 0.2);
+      }
+    }
+  }
+}
