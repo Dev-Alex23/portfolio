@@ -18,8 +18,8 @@ body {
 // Loading screen
 .loading-screen {
   display: flex;
+  z-index: 9999;
   .loading {
-    z-index: 9999;
     height: 100vh;
     width: 100%;
 
